@@ -4,10 +4,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* HEADER */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,6 +48,21 @@ a:hover {
     color: black;
 } 
 
+/* BACKGROUND WITH IMAGE */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* BODY WITH CONTENT */
 section h2 {
     margin-bottom: 20px;
     font-size: 40px;
@@ -93,19 +105,6 @@ p {
     color: #ffffff;
 }
 
-.benefits p {
-    font-size: 20px;
-}
-
-#hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -120,6 +119,11 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* SIDE COLUMN */
+.benefits p {
+    font-size: 20px;
 }
 
 .benefits {
@@ -153,6 +157,7 @@ p {
     max-width: 150px;
 }
 
+/* FOOTER */
 footer {
     padding: 30px;
     clear: both;
